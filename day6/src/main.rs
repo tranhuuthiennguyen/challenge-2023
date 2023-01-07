@@ -21,10 +21,6 @@ impl<T> Stack<T> {
         self.stack.is_empty()
     }
 
-    fn length(&self) -> usize {
-        self.stack.len()
-    }
-
     fn peek(&self) -> Option<&T> {
         self.stack.last()
     }
